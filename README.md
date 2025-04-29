@@ -80,7 +80,11 @@ The project studied with a very high dataset, over 200,000 URLs, which significa
 # ****References****
 
 [1] M. Sameen, K. Han and S. O. Hwang, "PhishHaven—An Efficient Real-Time AI Phishing URLs Detection System," in IEEE Access, vol. 8, pp. 83425-83443, 2020, doi: 10.1109/ACCESS.2020.2991403.
+
 [2] M. Sánchez-Paniagua, E. F. Fernández, E. Alegre, W. Al-Nabki and V. González-Castro, "Phishing URL Detection: A Real-Case Scenario Through Login URLs," in IEEE Access, vol. 10, pp. 42949-42960, 2022, doi: 10.1109/ACCESS.2022.3168681.
+
 [3] MA. Tamal, MK. Islam, T. Bhuiyan, A. Sattar, “Dataset of suspicious phishing URL detection,” in Front. Comput. Sci., vol. 6, doi: 10.3389/fcomp.2024.1308634
+
 [4] V. Vajrobol, B. B. Gupta, A. Gaurav, “Mutual information based logistic regression for phishing URL detection,” in Cyber Security and Applications, vol. 2, pp. 100044, January 1, 2024, doi: 10.1016/j.csa.2024.100044
+
 [5] B. Banik, A. Sarma, “Phishing URL detection system based on URL features using SVM,” in International Journal of Electronics and Applied Research (IJEAR), vol. 5, pp. 40 – 55, December, 2018
