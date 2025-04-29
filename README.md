@@ -56,6 +56,7 @@ SVM resulted in over 80% Phishing URLs detection, which was slightly higher than
 [5] detected phishing from 10,000, 15,000, 20,000, 25,000, and 30,000 datasets by using SVM algorithm. A total of 18 features extracted from URLs almost aligned with this study, but [5] added an extraction of port number, Unicode characters, redirection, suspicious symbols, and presence of ‘www’. [5] achieved over 90% accuracy and reported that the larger features depicted higher performance of SVM. However, even though [5] extracted larger features, the dataset was lower than this proposed study, which might affect the results.  
 
 ![image](https://github.com/user-attachments/assets/e85250b9-4f67-4806-a602-241d25e47c10)
+
 Figure 3.2 Confusion Matrix of Support Vector Machine
 
 |	        | Logistic Regression | SVM
