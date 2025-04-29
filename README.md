@@ -1,2 +1,19 @@
 # PhishingURLDetection
 
+**Abstract**
+
+Phishing attacks have become a major threat because it can trick users to reveal their sensitive information such as username, password, financial information etc. Phishing URLs can be attached in emails containing fake or attract information. This could easily lure victims to click and expose their confidentiality. Phishing URLs are increasing, this large amount of phishing is difficult to detect. Machine Learning (ML) is an alternative method to handle large datasets and provide high efficiency for phishing detection. In this study, 70% and 30% of over 200,000 datasets containing over 100,945 phishing URLs were trained and tested by Logistic Regression and Support Vector Machine (SVM) models. Since phishing URLs have specific characteristics, 9 features were extracted from URLs as an input, legitimate URLs are defined as 1 and phishing URLs are labeled to 1. The label data was treated as a target value. These two models’ performance was measured by accuracy, precision, recall, and f1. As a result, both models were effective to detect phishing URLs at over 80% accuracy rate, whereas SVM presented slightly higher performance. Nevertheless, the previous studies provided very high efficiency at over 90% accuracy with more complex and larger feature extraction. This proposed study suggested that feature extraction significantly affects ML’s performance; more complicated extraction could carry a higher accuracy rate.
+
+
+**1. Background**
+Social Engineering is a popular cybercrime to take advantage of human errors to steal personal or sensitive information. Phishing is one mechanism of social engineering to lure victims by adapting technical tricks such as spoofed emails, promotional emails, illegitimate websites or social platform attached with suspicious links. These links or URLs contain suspicious characters, have long-string or use insecure protocol such as Hypertext Transport Protocol (HTTP). The phishers also conduct URLs with or without IP addresses. One-click on those links redirect users to suspicious webpage; an attacker takes this opportunity to steal personal information, including usernames, passwords and financial data. Moreover, the links attached with malware impact on computers or IT devices. 
+
+Regarding those impacts, cybersecurity is important to prevent this type of social engineering. Firewalls are prominent to set up a whitelist for accepted network traffic. Some companies provide security policies to allow only secure networks or protocols such as HTTPS, SSH etc. Nevertheless, artificial intelligence (AI) becomes prevalent. The phishers perform AI generating phishing URLs or emails. DeepPhish is a malicious AI to generate AI Phishing URLs [1]. In 2017, the Anti-Phishing Working Group (APWG) reported 25% of phishing URLs under HTTPS protocol, this rose up to 83% in 2021[2]. APWG revealed 1,270,883 unique phishing attacks in 2022, higher than past several years [3]. This rising cybercrime indicated a requirement of strong detection and prevention. The increasing phishing cyberattacks enlarge the amount of data collected for detection. Machine Learning (ML) is beneficial to rely on large data and learn to classify the characteristics of phishing attacks. The proposed study utilized ML models, Logistic Regression and Support Vector Machine (SVM), to classify the phishing URLs.
+
+**2. Statemente of the problem**
+
+As an increasing phishing attack amplifies the amount of data for detection and prevention. This consumes high storage and produces complexity for current resources such as firewalls or log management. Supervised ML is an efficient method to simplify classification and detection. 
+
+**3.  Objectives**
+-	To utilize ML algorithms for phishing URLs classification and detection
+-	To study the effectiveness of Logistic Regression and SVM algorithms
